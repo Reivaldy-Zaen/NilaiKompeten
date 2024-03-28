@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #BFEA7C;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+
+}
+
+h4 {
+    padding-left: 30px;
+    padding-top: 50px;
+    color: #40A2E3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 20px;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+    line-height: 1.5;
+    white-space: nowrap;
+}
+
+.container {
+    width: 20%;
+    height: 5%;
+    display: end;
+
+}
+
+.box {
+
+    border-radius: 20px 0 0 20PX;
+    display: inline-flex;
+    background-color: white;
+    width: 35%;
+    height: 500px;
+    padding-left: 500px;
+    margin-top: 100px;
+    margin-left: 170px;
+    justify-content: flex-end;
+    border-style: solid;
+    box-shadow: 0 0 20px blue;
+
+
+}
+
+.box2 {
+    border-radius: 0 20px 20px 0;
+    width: 35%;
+    height: 500px;
+    background-color: #387ADF;
+    border-style: solid;
+    margin-top: 100px;
+    margin-right: 500px;
+    box-shadow: 0 0 12px blue;
+    padding-right: 400px;
+}
+
+.box3 {
+    width: 400px;
+    height: 220px;
+    background-color: #E5E483;
+    border-radius: 15px 15px 0 0;
+    margin-left: 70px;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.box4 {
+    width: 400px;
+    height: 210px;
+    background-color: #fff;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    margin-left: 70px;
+    padding-left: 35%;
+    padding-top: 15%;
+
+}
+
+
+.emot {
+    width: 100px;
+    height: 100px;
+    margin-left: 4rem;
+    margin-bottom: 35px;
+    padding-right: 1px;
+    margin-left: 30%;
+    display: inline-flex;
+    margin-top: 450px;
+    justify-content: center;
+}
+
+
+.php2 .name {
+    font-family:"Lucida Console", "Courier New";
+    font-size: 40px;
+    margin-left: 50px;
+    padding-left: 40px;
+    display: inline-flex;
+    line-height: 1px;
+    margin-bottom: 40px;
+}
+
+.php2 .huruf{
+    padding-left: 120px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+.php2 .nilai {
+    display: inline-flex;
+    font-family: fantasy;
+    font-size: 40px;
+    margin-right: 100px;
+    margin-left: 110px;
+    display: inline-block;
+}
+
+.kompeten {
+    display: inline-flex;
+    justify-content: center;
+    font-family: arial;
+    font-size: 30px;
+    padding-bottom: 150px;
+    padding-left: 15%;
+    white-space: nowrap;
+    margin-right: 30px;
+    margin-bottom: 300px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 12px black;
+}
+
+.gabungan {
+    display: flex;
+    margin-right: 110px;
+    margin-top: 100px;
+    justify-content: center;
+    text-align: left;
+    padding-top: 50px;
+}
+
+
+input[type="text"] {
+    width: 340px;
+    height: 37px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px red;
+    cursor: pointer;
+}
+
+input[type="number"] {
+    width: 340px;
+    height: 37px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px red;
+    cursor: pointer;
+}
